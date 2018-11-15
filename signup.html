@@ -5,6 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="assets/landing.css">
   </head>
+
   <body>
 
     <div class="cotn_principal">
@@ -54,10 +55,9 @@
        <div class="cont_form_sign_up">
     <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
          <h2>SIGN UP</h2>
-    <input type="text" placeholder="Email" />
-    <input type="text" placeholder="User" />
-    <input type="password" placeholder="Password" />
-    <input type="password" placeholder="Confirm Password" />
+    <input id="signup_email" type="email" placeholder="Email" />
+    <input id="signup_name" type="text" placeholder="Name" />
+    <input id="signup_password" type="password" placeholder="Password" />
     <button class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
 
       </div>
@@ -67,6 +67,10 @@
       </div>
      </div>
     </div>
+
+    <script src="app/signup.js">
+
+    </script>
 
     <script type="text/javascript">
     /* ------------------------------------ Click on login and Sign Up to  changue and view the effect
