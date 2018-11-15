@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <style media="screen">
+
+    </style>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <!-- <link rel="stylesheet" href="./assets/style.css"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet"> -->
+    <script src="app/index.js">
+
+    </script>
+    <title>Ever Notes</title>
+  </head>
+  <body class="container">
+              <section>
+              <div class="user">
+                <h3 id="user-name-and-id" text-align="center" > </h3>
+                <img src="assets/nasProfile.jpg" height="110" width="110">
+                <a href="#">Account</a>
+                <a href="#">Change Password</a>
+                <a href="#">Log Out</a>
+              </div>
+            </section>
+
+            <style media="screen">
+
+                      body{
+                      background-color: #ADD8E6;
+                      font-family: 'Source Sans Pro', sans-serif;
+                      }
+
+                      section {
+                      width: 400px;
+                      margin: 0 auto;
+                      }
+
+                      .user {
+                      width: 400px;
+                      height: 165px;
+                      margin: 2em 0;
+                      border: 3px solid #E18728;
+                      border-radius: 10px;
+                      background-color: white;
+                      }
+
+                      img {
+                      padding: .5em;
+                      float: left;
+                      }
+
+                      a { display: block; }
+            </style>
+
+    <h1 id="user-name-and-id"> </h1>
+    <div class="row">
+      <div class="col-sm-3">
+        <h2>Notes </h2>
+        <ul id="notes"></ul>
+        <style media="screen">
+        .noteContainer {
+            border: 2px solid #dedede;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 15px 0;
+          /* font-family: 'Nunito', sans-serif; */
+        }
+        .edit-note, .delete-note {
+        /* font-family: 'Nunito', sans-serif; */
+        background-color: #26C6DA;
+          border: none;
+          padding: 10px;
+        width: 200px;
+        border-radius:3px;
+        box-shadow: 1px 5px 20px -5px rgba(0,0,0,0.4);
+          color: #fff;
+        margin-top: 10px;
+        cursor: pointer;
+        }
+
+        body {
+
+          color: #384047;
+        }
+        </style>
+      </div>
+
+      <div class="col-sm-9">
+        <h3 id="note-body"></h3>
+      </div>
+    </div>
+
+    <!-- <div class="margin flex"> -->
+      <h6 id='addformtag'>Add a new Note
+       <style media="screen">
+        #addformtag {
+          position: relative;
+        }
+
+        #addformtag  {
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+       </style>
+      </h6>
+
+    <!-- </div> -->
+
+
+
+
+    </body>
+  </html>
